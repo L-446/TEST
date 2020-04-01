@@ -1,0 +1,73 @@
+/* TAGS */
+header{/* Cabeçalho */
+    background-color: black;
+    height: 80px;
+    padding: 40px;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{/* toda a pagina */
+    margin: auto;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{/* Rodape */
+    clear: both;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* IDs */
+#principal{
+    background-image: url("city.jpeg");
+    clear: both;
+    background-size: 100%;
+    min-height: 400px;
+    padding: 80px 0 0 0;
+
+}
+#logo{
+    float: left;
+}
+#menu{
+    float: right;
+    margin-top: 35px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 20px 20px;
+}
+#menu a:hover{
+    background-color: red;
+    color: white;
+}
+
+/* Class */
+.conteiner{
+    width: 960px;
+    margin: 0 auto;
+}
+.efeito{
+    background-color: rgba(red, green, blue, alpha);
+    padding: 80px 0 80px 0;
+}
+
